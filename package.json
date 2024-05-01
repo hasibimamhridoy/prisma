@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/find.ts",
+    "mgrt": "npx prisma migrate"
+  },
   "dependencies": {
     "@prisma/client": "5.13.0",
     "@types/node": "^20.12.7",
